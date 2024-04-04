@@ -25,7 +25,7 @@ export const sliderItems = [
 export const categories = [
     {
         id :1,
-        img: "https://shantanunikhil.imgix.net/img/app/product/7/720617-7970610.jpg?w=618&auto=format",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_Q65yXiB_blR1mCzMMUd1MWomV-fBZSYPQ&s",
         title: "SHIRT STYLE!",
         cat:"shirt",
     },
@@ -37,7 +37,7 @@ export const categories = [
     },
     {
         id :3,
-        img: "https://www.spartina449.com/media/catalog/product/cache/ed9369d106e37bd7e7957da79f972f15/4/8/489246_3ifcjpyfbw3olv02.jpg",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVbg8P6VYdzLpMNY6FsQp-n2pB0TrLujW6_Q&s",
         title: "LIGHT JACKETS",
         cat:"jeans",
     }

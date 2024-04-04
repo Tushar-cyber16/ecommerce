@@ -74,16 +74,20 @@ const Navbar = () => {
   const navigate = useNavigate();
   const dispatch =useDispatch();
  const handleLogout = () => {
-   dispatch(logOut());
-  navigate("/login");
+    dispatch(logOut());
+   navigate("/login");
  }
  const admin = useSelector(state => state.user.currentUser.isAdmin);
+// const admin =null;
 const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
- const addProduct = () => {
-  if(admin){
+ const addProduct = () => 
+ {
+  if(admin)
+  {
    navigate("/addproduct")
   }
-  else{
+  else
+  {
     alert("Not Authorized");
   }
  }

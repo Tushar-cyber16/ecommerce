@@ -88,7 +88,9 @@ const handleClick = (e) => {
       <Form>
         <Input placeholder="Username" onChange={(e) => setusername(e.target.value)} />
         <Input placeholder="Password" type="password"  onChange={(e) => setpassword(e.target.value)}/>
-        <Button onClick={handleClick} disabled={isFetching}>Login</Button>
+        {/* <Button onClick={handleClick} disabled={isFetching}>Login</Button> */}
+        <Button onClick={handleClick} >Login</Button>
+
         { error && <Error>Something went wrong...</Error> }
         <Linkk>Do you forgot your password?</Linkk>
         <Link to="/register"><Button>Create a new account</Button></Link>
